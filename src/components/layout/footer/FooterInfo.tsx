@@ -134,7 +134,7 @@ const PoweredBy: Component = ({ className }) => {
         >
           Shiro
         </StyledLink>{' '}
-        的开源版本。
+        的修改开源版本。
         {process.env.COMMIT_HASH && process.env.COMMIT_URL && (
           <MLink popper={false} href={process.env.COMMIT_URL}>
             版本哈希：{process.env.COMMIT_HASH.slice(0, 8)}
@@ -201,7 +201,7 @@ const FooterBottom = async () => {
           </SubscribeTextButton>
         </span>
         <span className="mt-3 block md:mt-0 md:inline">
-          Stay hungry. Stay foolish.
+          保持独立思考。
         </span>
       </p>
       <div>
